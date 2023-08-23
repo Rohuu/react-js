@@ -2,7 +2,7 @@ import React from "react";
 
 function ReactSiteMainContent(){
     return(
-        <div>
+        <div className="container"> 
             <h1>Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>
