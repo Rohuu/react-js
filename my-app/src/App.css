@@ -70,3 +70,7 @@ nav > h4 {
   color: #DEEBF8;
   font-weight: 600;
 }
+
+.nav--logo_text, .nav--title {
+  margin: 0;
+}
