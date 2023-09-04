@@ -2,6 +2,10 @@
   /* text-align: center; */
 }
 
+body{
+  background-color: #282D35;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -46,31 +50,61 @@ nav{
   display: flex;
   align-items: center;
   background-color: #21222A;
-  color: white;
   height: 90px;
-  padding: 30px 25px;
+  /* padding: 30px 25px; */
 }
 
-nav > h3, nav>h4{
-  margin:0;
-}
-
-nav > h3 {
+ .nav-logo-text {
+  margin-left: 5px;
   margin-right: auto;
   color: #61DAFB;
   font-weight: 700;
-}
+  font-size: 36px;
+ } 
 
 nav > img {
   height: 30px;
   margin-right: 7px;
 }
 
-nav > h4 {
+.nav-title {
   color: #DEEBF8;
+  font-size: 32px;
   font-weight: 600;
+  margin-left: auto;
+  margin-right: 15px;
 }
 
-.nav--logo_text, .nav--title {
-  margin: 0;
+.nav-logo-text, .nav-title {
+  /* margin: 0; */
+} 
+
+.nav-icon {
+  height: 35px;
+  margin-left: 15px;
+} 
+
+.container{
+  padding: 57px 27px;
+  color: white;
+}
+
+.main-title{
+  margin-top: 0;
+  font-size: 39px;
+}
+
+li{
+  /* margin: 10px; */
+  line-height: 25px;
+  padding-block: 10px;
+}
+
+ul{
+  margin-top: 35px;
+}
+
+li::marker{
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
