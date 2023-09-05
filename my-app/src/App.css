@@ -2,7 +2,7 @@
   /* text-align: center; */
 }
 
-body{
+/* body{
   background-color: #282D35;
 }
 
@@ -15,9 +15,9 @@ body{
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -30,31 +30,31 @@ body{
 
 .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 /* .nav-items{
   list-style: none;
   display: flex;
 } */
 
-nav{
+/* nav{
   display: flex;
   align-items: center;
   background-color: #21222A;
   height: 90px;
-  /* padding: 30px 25px; */
-}
+  padding: 30px 25px;
+} */
 
- .nav-logo-text {
+ /* .nav-logo-text {
   margin-left: 5px;
   margin-right: auto;
   color: #61DAFB;
@@ -65,21 +65,21 @@ nav{
 nav > img {
   height: 30px;
   margin-right: 7px;
-}
+} */
 
-.nav-title {
+/* .nav-title {
   color: #DEEBF8;
   font-size: 32px;
   font-weight: 600;
   margin-left: auto;
   margin-right: 15px;
-}
+} */
 
-.nav-logo-text, .nav-title {
+/* .nav-logo-text, .nav-title { */
   /* margin: 0; */
-} 
+/* }  */
 
-.nav-icon {
+/* .nav-icon {
   height: 35px;
   margin-left: 15px;
 } 
@@ -87,24 +87,29 @@ nav > img {
 .container{
   padding: 57px 27px;
   color: white;
-}
+} */
 
-.main-title{
+/* .main-title{
   margin-top: 0;
   font-size: 39px;
-}
+} */
 
-li{
-  /* margin: 10px; */
+/* li{
+  margin: 10px;
   line-height: 25px;
   padding-block: 10px;
-}
+} */
 
-ul{
+/* ul{
   margin-top: 35px;
 }
 
 li::marker{
   font-size: 1.4rem;
   color: #61DAFB;
+} */
+
+.nav-logo{
+  height: 30px;
+  padding: 15px 20px;
 }

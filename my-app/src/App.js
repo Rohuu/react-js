@@ -2,9 +2,10 @@ import './App.css';
 // import Header from './components/Header';
 // import MainContent from './components/MainContent';
 // import Footer from './components/Footer';
+// import ReactSiteNavbar from './components/ReactSiteNavbar';
+// import ReactSiteMainContent from './components/ReactSiteMainContent';
 
-import ReactSiteNavbar from './components/ReactSiteNavbar';
-import ReactSiteMainContent from './components/ReactSiteMainContent';
+import Navbar from './airbnb-project/Navbar';
 
 function App() {
   return (
@@ -13,8 +14,10 @@ function App() {
       <MainContent/>
       <Footer/> */}
 
-      <ReactSiteNavbar/>
-      <ReactSiteMainContent/>
+      {/* <ReactSiteNavbar/>
+      <ReactSiteMainContent/> */}
+
+      <Navbar/>
     </div>
   );
 }
