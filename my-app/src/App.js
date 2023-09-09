@@ -6,6 +6,7 @@ import './App.css';
 // import ReactSiteMainContent from './components/ReactSiteMainContent';
 
 import Navbar from './airbnb-project/Navbar';
+import Hero from './airbnb-project/Hero';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ReactSiteMainContent/> */}
 
       <Navbar/>
+      <Hero/>
     </div>
   );
 }
