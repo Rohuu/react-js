@@ -7,6 +7,9 @@ import './App.css';
 
 import Navbar from './airbnb-project/Navbar';
 import Hero from './airbnb-project/Hero';
+import Card from './airbnb-project/Card';
+import img1 from "./airbnb-project/img/katie-zaferes.png";
+import img2 from "./airbnb-project/img/katie-zaferes.png";  
 
 function App() {
   return (
@@ -19,7 +22,24 @@ function App() {
       <ReactSiteMainContent/> */}
 
       <Navbar/>
-      <Hero/>
+      {/* <Hero/> */}
+      <Card
+      img={img1}
+      rating="5.0"
+      reviewCount={6}
+      country="USA"
+      title="Life Lessons with Katie Zaferes"
+      price={136}
+      />
+      
+      <Card
+      img={img2}
+      rating="4.7"
+      reviewCount={9}
+      country="INDIA"
+      title="Not so famous athlete"
+      price={147}
+      />
     </div>
   );
 }

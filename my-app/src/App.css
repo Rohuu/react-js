@@ -137,4 +137,26 @@ nav{
 .hero-text{
   margin-top: 0px;
 }
+.first-card{
+  width: 175px;
+  font-size: 14px;
+  margin: 20px;
+}
+
+.first-img{
+  width: 100% ;
+  border-radius: 7.5px;
+}
+
+.star-img{
+  height: 13px;
+  padding: 0px 5px;
+}
+
+.gray{
+  color:gray;
+}
   
+.bold{
+  font-weight: bold ;
+}
