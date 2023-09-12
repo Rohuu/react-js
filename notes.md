@@ -20,3 +20,10 @@ const squredArr = nums.map(function(num){
 
 that squredArr array will hold all squrred values. 
 
+const names=["rohit","sachin","dolly"];
+return ["Rohit","Sachin","Dolly"];
+
+const capitalFirstLetterArr = names.map((names) => {     //here arrow function has been used
+    return name[0].toUpperCase()+name.slice[1];
+})
+
